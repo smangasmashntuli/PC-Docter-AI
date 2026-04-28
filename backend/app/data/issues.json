@@ -1,0 +1,73 @@
+[
+  {
+    "id": "slow-pc",
+    "title": "PC Running Slow",
+    "keywords": ["slow", "lagging", "freezing", "hang", "unresponsive"],
+    "steps": [
+      "Restart your computer – this clears temporary files and refreshes memory.",
+      "Open Task Manager (Ctrl + Shift + Esc) and check for programs using high CPU or RAM.",
+      "Uninstall unused programs via Settings > Apps.",
+      "Run Disk Cleanup: search 'Disk Cleanup' in the Start menu and follow the wizard.",
+      "Check that your hard drive has at least 10% free space.",
+      "Scan for malware using Windows Defender (Settings > Windows Security > Virus & threat protection).",
+      "If the issue persists, consider upgrading RAM or switching to an SSD."
+    ]
+  },
+  {
+    "id": "no-internet",
+    "title": "No Internet Connection",
+    "keywords": ["no internet", "wifi", "network", "can't connect", "offline", "disconnected"],
+    "steps": [
+      "Check that Wi-Fi or Ethernet is enabled on your device.",
+      "Restart your router and modem – unplug for 30 seconds then plug back in.",
+      "Forget the Wi-Fi network and reconnect: Settings > Network > Wi-Fi > Manage known networks.",
+      "Run the Windows Network Troubleshooter: Settings > System > Troubleshoot > Internet Connections.",
+      "Flush DNS cache: open Command Prompt as Administrator and run 'ipconfig /flushdns'.",
+      "Check if other devices can connect – if not, the issue is likely with the router/ISP.",
+      "Contact your Internet Service Provider if all steps fail."
+    ]
+  },
+  {
+    "id": "blue-screen",
+    "title": "Blue Screen of Death (BSOD)",
+    "keywords": ["blue screen", "bsod", "crash", "stop error", "restart loop"],
+    "steps": [
+      "Note the error code shown on the blue screen (e.g., MEMORY_MANAGEMENT).",
+      "Restart your PC – a one-time BSOD is often caused by a minor glitch.",
+      "Check for recent Windows Updates: Settings > Windows Update.",
+      "Uninstall recently installed drivers or software that may have caused the crash.",
+      "Run Windows Memory Diagnostic: search 'Windows Memory Diagnostic' in Start.",
+      "Run 'sfc /scannow' in an elevated Command Prompt to repair system files.",
+      "If BSODs persist, back up your data and consider a Windows reset."
+    ]
+  },
+  {
+    "id": "overheating",
+    "title": "Overheating / Fan Noise",
+    "keywords": ["hot", "overheating", "fan", "loud", "temperature", "shutdown"],
+    "steps": [
+      "Ensure your PC or laptop is on a hard, flat surface with good airflow.",
+      "Clean dust from the vents using compressed air.",
+      "Check CPU temperature with a free tool like HWMonitor or Core Temp.",
+      "Close background apps to reduce CPU load (Task Manager > CPU column).",
+      "Update drivers, especially GPU drivers, from the manufacturer's website.",
+      "Check that all fans are spinning (open the case or peek through laptop vents).",
+      "If a laptop, consider a cooling pad.",
+      "Seek professional help if thermal paste on the CPU needs replacement."
+    ]
+  },
+  {
+    "id": "no-display",
+    "title": "No Display / Black Screen",
+    "keywords": ["black screen", "no display", "monitor", "blank screen", "no picture"],
+    "steps": [
+      "Check that the monitor is powered on and the brightness is not set to zero.",
+      "Verify that the cable (HDMI, DisplayPort, or VGA) is firmly connected at both ends.",
+      "Try a different cable or a different monitor if available.",
+      "For desktops: if you have a dedicated GPU, ensure the cable is plugged into the GPU, not the motherboard.",
+      "Restart the PC and listen for beep codes that may indicate hardware issues.",
+      "Try booting in Safe Mode: hold Shift while clicking Restart > Troubleshoot > Advanced Options > Startup Settings.",
+      "If none of the above works, the GPU or monitor may need professional inspection."
+    ]
+  }
+]
